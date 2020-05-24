@@ -19,7 +19,7 @@ defmodule Rumbl.Accounts do
 
   def get_user_by(params) do
     Enum.find(list_users(), fn map ->
-      Enum.all?(params, fn {key, val} -> Map.get(map, key) == val end)
+      Enum.all?(params, fn {key, value} -> Map.get(map, key) == value end)
     end)
   end
 end
