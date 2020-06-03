@@ -4,10 +4,15 @@ defmodule Rumbl.Multimedia do
   """
 
   import Ecto.Query, warn: false
-  alias Rumbl.Repo
 
-  alias Rumbl.Multimedia.Video
+  alias Rumbl.Repo
   alias Rumbl.Accounts
+  alias Rumbl.Multimedia.Video
+  alias Rumbl.Multimedia.Category
+
+  def create_category!(name) do
+    Repo.insert!(%Category{name: name}, on_conflict: :nothing)
+  end
 
   def list_user_videos(%Accounts.User{} = user) do
     Video
