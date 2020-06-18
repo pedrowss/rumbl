@@ -20,3 +20,7 @@ config :rumbl, RumblWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
+
+# During testing (and testing only), reduce the number of rounds
+# rounds - computational cost
+config :pbkdf2_elixir, :rounds, 1
