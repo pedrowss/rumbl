@@ -86,5 +86,5 @@ jobs:
         with:
           GIGALIXIR_USERNAME: ${{ secrets.GIGALIXIR_USERNAME }}
           GIGALIXIR_PASSWORD: ${{ secrets.GIGALIXIR_PASSWORD }}
-          GIGALIXIR_APP: soupy-unfinished-grunion
+          GIGALIXIR_APP: phoenix-rumbl
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
