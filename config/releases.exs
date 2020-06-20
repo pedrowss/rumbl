@@ -1,6 +1,6 @@
 import Config
 
-config :pipsqueak, RumblWeb.Endpoint,
+config :rumbl, RumblWeb.Endpoint,
   server: true,
   http: [port: {:system, "PORT"}],
-  url: [host: System.get_env("APP_NAME") <> ".gigalixirapp.com", port: 4000]
+  url: [host: System.get_env("APP_NAME") <> ".gigalixirapp.com", port: 443]
