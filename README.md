@@ -12,4 +12,5 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 See in production: [`phoenix-rumbl`](https://phoenix-rumbl.gigalixirapp.com)
 
+  * CI/CD [`GitHub Actions`](https://github.com/pedrowss/rumbl/actions)
   * hosted at [`Gigalixir`](https://gigalixir.com)
