@@ -1,6 +1,6 @@
 <section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Rumbl.io!" %></h1>
-  <p>This application is based on the book (Programming Phoenix)</p>
+  <h1><%= gettext "Welcome to %{name}!", name: "Rumbl" %></h1>
+  <p>Watch videos and attach comments to them in real time</p>
 </section>
 
 <section class="row">
@@ -12,6 +12,9 @@
       </li>
       <li>
         <a href="https://github.com/pedrowss/rumbl/actions">GitHub ci/cd pipeline</a>
+      </li>
+      <li>
+        <a href="https://pragprog.com/titles/phoenix14">based on the book (Programming Phoenix)</a>
       </li>
     </ul>
   </article>

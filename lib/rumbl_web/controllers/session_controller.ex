@@ -11,7 +11,7 @@ defmodule RumblWeb.SessionController do
         conn
         |> RumblWeb.Auth.login(user)
         |> put_flash(:info, "Welcome back!")
-        |> redirect(to: Routes.page_path(conn, :index))
+        |> redirect(to: Routes.video_path(conn, :index))
 
       {:error, _reason} ->
         conn
